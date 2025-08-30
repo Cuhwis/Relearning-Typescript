@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"target": "ES2022", // modern JS output
+		"module": "ESNext", // ES modules
+		"moduleResolution": "Bundler", // works with Vite, tsx, etc.
+		"strict": true, // all strict type checks
+		"skipLibCheck": true, // faster builds
+		"noEmit": true, // don’t output JS, just type-check
+		"esModuleInterop": true, // smoother imports
+		"forceConsistentCasingInFileNames": true,
+		"baseUrl": "."
+	},
+	"include": ["lessons", "scripts"]
+}
