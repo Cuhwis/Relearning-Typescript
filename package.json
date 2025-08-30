@@ -1,19 +1,21 @@
 {
-  "name": "relearning-typescript",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lesson": "node ./scripts/run-lesson.mjs",
-    "typecheck": "tsc --noEmit"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "prettier": "^3.6.2",
-    "tsx": "^4.20.5",
-    "typescript": "^5.9.2"
-  }
+	"name": "relearning-typescript",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"new:lesson": "node ./scripts/new-lesson.mjs",
+		"lesson": "node ./scripts/run-lesson.mjs",
+		"typecheck": "tsc --noEmit",
+		"start": "tsx src/index.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"prettier": "^3.6.2",
+		"tsc": "^2.0.4",
+		"typescript": "^5.9.2"
+	}
 }
