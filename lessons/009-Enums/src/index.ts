@@ -29,4 +29,4 @@ let ordersArrayTS: [Pet, number][] = [
 
 //Now that we have a type safe orders array, let’s see what happens when someone tries to order a pet that the shop does not carry. Attempt to add an order for 3 jerboas by adding the code ordersArrayTS.push([Pet.Jerboa, 3]);
 
-ordersArrayTS.push([Pet.Jerboa, 3]);
+//ordersArrayTS.push([Pet.Jerboa, 3]);

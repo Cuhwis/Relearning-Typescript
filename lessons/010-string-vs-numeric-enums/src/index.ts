@@ -11,20 +11,22 @@ let ordersArray2 = [
 ];
 
 // Write your code below:
+/*
 enum Pet {
 	Hamster = 'HAMSTER',
 	Rat = 'RAT',
 	Chinchilla = 'CHINCHILLA',
 	Tarantula = 'TARANTULA',
 }
+    */
 
-let petOnSaleTS: Pet = Pet.Chinchilla;
+let petOnSaleTS2: Pet = Pet.Chinchilla;
 
-let ordersArrayTS: [Pet, number][] = [
+let ordersArrayTS2: [Pet, number][] = [
 	[Pet.Rat, 2],
 	[Pet.Chinchilla, 1],
 	[Pet.Hamster, 2],
 	[Pet.Chinchilla, 50],
 ];
 
-ordersArrayTS.push(['HAMSTER', 1]);
+//ordersArrayTS.push(['HAMSTER', 1]);
